@@ -1,15 +1,20 @@
-.fighters {
+#fighters-grid {
     display: flex;
+    width: 428px;
+    border: 2px solid black;
     flex-wrap: wrap;
+    gap: 8px;
 }
 
-.each {
-    margin: 10px;
-    border: 8px solid black;
-    border-radius: 25%;
-    background-color: white;
+.fighter-thumb {
+    height: 100px;
+    width: 100px;
+    transition: transform 0.2s, border 0.2s;
+    border: 2px solid transparent;
 }
 
-.backg {
-    background-image: url("https://cdn-cms.bnea.io/sites/default/files/static-files/tekken_virtual-background-3.png");
+.fighter-thumb:hover {
+    transform: scale(1.15);
+    border: 2px solid red;
+    cursor: pointer;
 }
