@@ -1,0 +1,15 @@
+.fighters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.each {
+    margin: 10px;
+    border: 8px solid black;
+    border-radius: 25%;
+    background-color: white;
+}
+
+.backg {
+    background-image: url("https://cdn-cms.bnea.io/sites/default/files/static-files/tekken_virtual-background-3.png");
+}
