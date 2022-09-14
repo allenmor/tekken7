@@ -14,6 +14,16 @@ function one() {
 
   return (
     <>
+    <nav id="nav">
+      <div>News</div>
+      <div>Fighters</div>
+      <div>Features</div>
+      <div>Guides</div>
+      <div><img src="https://tk7.tekken.com/assets/images/header/logo.png" id="logo"/></div>
+      <div>Media</div>
+      <div>Esports</div>
+      <div>Buy Now</div>
+    </nav>
     <h1>Fighters</h1>
     <div id="fighters-grid">
       

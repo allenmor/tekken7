@@ -1,9 +1,13 @@
+#nav {
+    background-color: red;
+}
+
 #fighters-grid {
     display: flex;
     width: 428px;
-    border: 2px solid black;
     flex-wrap: wrap;
     gap: 8px;
+    margin: 0 auto;
 }
 
 .fighter-thumb {
