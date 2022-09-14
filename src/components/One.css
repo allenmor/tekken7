@@ -1,7 +1,19 @@
 #nav {
     background-color: red;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    top: 0;
+    left: 0;
+    height: 70px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+#logo {
+    width: 280px;
+    height: auto;
+}
 #fighters-grid {
     display: flex;
     width: 428px;
